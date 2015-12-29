@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY a1e4cc1c0c2718c7d00ebceaa0512bc78 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/fminbnd.xml">
+<!ENTITY a157b47418e42cab43753aae1607e6733 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/fmincon.xml">
+<!ENTITY a66bacdba54235c8f4d6b4e5ed053ca41 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/fminunc.xml">
+<!ENTITY a313a2b26342194250cdd27a85a9b82de SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/lsqlin.xml">
+<!ENTITY ae10eeec7a8465aa32892bf12ce42dc40 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/qpipopt.xml">
+<!ENTITY adcad5e1bcc8113bcb0deb65aec9867a8 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/qpipopt_mat.xml">
+<!ENTITY af8b020321e07010ac0daa239687a219b SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/qpipoptmat.xml">
+<!ENTITY a53442dcaaec07826dce7628dbaf298a3 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/setOptions.xml">
+<!ENTITY af6610664a905a7316fd09435ab7e4fab SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/symphony.xml">
+<!ENTITY a45df83f4226335599421d085a9ea7ead SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/symphony_call.xml">
+<!ENTITY ab19b5412bd2a2f9f7781f8a8bec40cf8 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/symphony_mat.xml">
+<!ENTITY a18581ea734232cef39913db56d8a66a6 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/symphonymat.xml">
+<!ENTITY a954b642b9bf07a3206f8ff0ee1c16abe SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_addConstr.xml">
+<!ENTITY a5a11d716e529e105367b29f2ad701807 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_addVar.xml">
+<!ENTITY a3f65f8894247f536c2c0bba1e16fe008 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_close.xml">
+<!ENTITY a0f153ad8d0a8e0e8e89b98014e8057b2 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_deleteConstrs.xml">
+<!ENTITY a3afb6e72cc13663731f113002a838ef3 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_deleteVars.xml">
+<!ENTITY a0b515dc2b608e4392143191263153a60 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getConstrActivity.xml">
+<!ENTITY a6485f6a5276bae3407f8050205888ff4 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getConstrLower.xml">
+<!ENTITY a0e469cd2b1ebe89fdc837ae23f669dbb SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getConstrRange.xml">
+<!ENTITY abb180ab4a783afedb768258f7677c0cf SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getConstrSense.xml">
+<!ENTITY a269d8440c1f2cc22308ca8fb1f73d34a SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getConstrUpper.xml">
+<!ENTITY a9f62e7c39f73314d21c9d66f9eb30fe4 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getDblParam.xml">
+<!ENTITY a47f4fcd9fc68bf160ff8f0511fdfaa3b SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getInfinity.xml">
+<!ENTITY a4c1f7ca07885a0499c507e9312644d2f SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getIntParam.xml">
+<!ENTITY aaebc12116c4e1859b6327f63f5117e7c SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getIterCount.xml">
+<!ENTITY abeca5fb90752825fece79da317bfb4d2 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getMatrix.xml">
+<!ENTITY a9bc78c9be600f8cb521ca1794fb0f81a SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getNumConstr.xml">
+<!ENTITY a96370b6d92ed706304c7701c27564075 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getNumElements.xml">
+<!ENTITY a05abcc3c5270be68973631c954fdb0d6 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getNumVar.xml">
+<!ENTITY acb02a01d9b7f073a836004b1c7d9ff7f SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getObjCoeff.xml">
+<!ENTITY aa680492cb4726bc2b23704d636bad536 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getObjSense.xml">
+<!ENTITY a3b8b88822eccf89c221c9d166e4aa448 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getObjVal.xml">
+<!ENTITY a7b8b0d7c222c367719c98bd1d821205d SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getPrimalBound.xml">
+<!ENTITY ae022ec371a322133037c82e7406af2a8 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getRhs.xml">
+<!ENTITY a7d8fd1580af08b2aab0ba68377b497b6 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getStatus.xml">
+<!ENTITY ade0525fd2f21f164646bb3a7520846ab SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getStrParam.xml">
+<!ENTITY a735402e91aee266d55aa3e71775368b7 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getVarLower.xml">
+<!ENTITY a72791fc722fbb6b3856393442381e41e SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getVarSoln.xml">
+<!ENTITY a1a0f7a3fda970f2a5e56947db943073c SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_getVarUpper.xml">
+<!ENTITY af8c0f00971c2cb6f6324594eca2c303c SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isAbandoned.xml">
+<!ENTITY a46ec0aa61f3c7c266445bb08de4932c2 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isBinary.xml">
+<!ENTITY ac1e83844977e1cec44f67463bbcdcd36 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isContinuous.xml">
+<!ENTITY a1bb6ba29e4dfaab5397af578291b2d73 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isEnvActive.xml">
+<!ENTITY a359f92fa770e48a4d677e53b199e5da8 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isInfeasible.xml">
+<!ENTITY ab7ebee8bf753b3b2ed2b35ccc1381236 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isInteger.xml">
+<!ENTITY aada808671cb2eb049c0e6069e8dd79ec SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isIterLimitReached.xml">
+<!ENTITY a086cba906bfc128a97ddddb37d392231 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isOptimal.xml">
+<!ENTITY a259f81ddf0f9a7f201bb0dbcba8cf0fa SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isTargetGapAchieved.xml">
+<!ENTITY a0672c7a433077a649132a645c1a98c4f SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_isTimeLimitReached.xml">
+<!ENTITY a7e442625a2161c9032e697d593e77dc3 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_loadMPS.xml">
+<!ENTITY a5cfc18e06e13d344d594309cbd7dbc2e SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_loadProblem.xml">
+<!ENTITY a131cd03a429afb0db1418ca1b8d877d5 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_loadProblemBasic.xml">
+<!ENTITY a69953b843056fefd57753bf1c5d0009c SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_open.xml">
+<!ENTITY a99911bfaeea26663955b61826b77172d SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_resetParams.xml">
+<!ENTITY abf91dcecb01d486085317042b113cf3b SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setConstrLower.xml">
+<!ENTITY acfe8ba0b79ff7af5b579d6003019c587 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setConstrType.xml">
+<!ENTITY a5807924a0dfb120339026c86448a0b47 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setConstrUpper.xml">
+<!ENTITY a149de94fa19eaeb3fcce28d31a2b9945 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setContinuous.xml">
+<!ENTITY a33f9651275c8488dbcabd7beb21614f5 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setDblParam.xml">
+<!ENTITY af4e1bf401953008c29f5b0189ec858ae SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setIntParam.xml">
+<!ENTITY a75996f76ad7cad721c848adee07ad212 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setInteger.xml">
+<!ENTITY aa6cd06628cdbb6d0da03e48d7606bf7e SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setObjCoeff.xml">
+<!ENTITY a2a14f28a9c16ff9bbc2346a6a81cbeff SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setObjSense.xml">
+<!ENTITY adaa94dbdf9ae44cea6b56c205ca14f8f SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setPrimalBound.xml">
+<!ENTITY ad84a9df10b93664deff07fb9a3c826e3 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setStrParam.xml">
+<!ENTITY a43dba52df33114f0d08c18001eab8c94 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setVarLower.xml">
+<!ENTITY a9da7ce1e872ba8a72c6032e1a74eb3ca SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setVarSoln.xml">
+<!ENTITY ab8c5998929dd3ae9997dad3c6c104a15 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_setVarUpper.xml">
+<!ENTITY a272ad606a6e38180628da675ee48f845 SYSTEM "/home/prajwala/fgoalattain/fmincon/help/en_US/Symphony Native Function/sym_solve.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='symphony_toolbox_manual'>
+    <title>Symphony Toolbox</title>
+  </info>
+
+<part xml:id='section_4dcbfd6cc032d6ba9de6e45ebfc63e1e'>
+<title>Symphony Toolbox</title>
+&a1e4cc1c0c2718c7d00ebceaa0512bc78;
+&a157b47418e42cab43753aae1607e6733;
+&a66bacdba54235c8f4d6b4e5ed053ca41;
+&a313a2b26342194250cdd27a85a9b82de;
+&ae10eeec7a8465aa32892bf12ce42dc40;
+&adcad5e1bcc8113bcb0deb65aec9867a8;
+&af8b020321e07010ac0daa239687a219b;
+&a53442dcaaec07826dce7628dbaf298a3;
+&af6610664a905a7316fd09435ab7e4fab;
+&a45df83f4226335599421d085a9ea7ead;
+&ab19b5412bd2a2f9f7781f8a8bec40cf8;
+&a18581ea734232cef39913db56d8a66a6;
+<chapter xml:id='section_0129b55e4e28f5a219a8dc87c1f4db79'>
+<title>Symphony Native Functions</title>
+&a954b642b9bf07a3206f8ff0ee1c16abe;
+&a5a11d716e529e105367b29f2ad701807;
+&a3f65f8894247f536c2c0bba1e16fe008;
+&a0f153ad8d0a8e0e8e89b98014e8057b2;
+&a3afb6e72cc13663731f113002a838ef3;
+&a0b515dc2b608e4392143191263153a60;
+&a6485f6a5276bae3407f8050205888ff4;
+&a0e469cd2b1ebe89fdc837ae23f669dbb;
+&abb180ab4a783afedb768258f7677c0cf;
+&a269d8440c1f2cc22308ca8fb1f73d34a;
+&a9f62e7c39f73314d21c9d66f9eb30fe4;
+&a47f4fcd9fc68bf160ff8f0511fdfaa3b;
+&a4c1f7ca07885a0499c507e9312644d2f;
+&aaebc12116c4e1859b6327f63f5117e7c;
+&abeca5fb90752825fece79da317bfb4d2;
+&a9bc78c9be600f8cb521ca1794fb0f81a;
+&a96370b6d92ed706304c7701c27564075;
+&a05abcc3c5270be68973631c954fdb0d6;
+&acb02a01d9b7f073a836004b1c7d9ff7f;
+&aa680492cb4726bc2b23704d636bad536;
+&a3b8b88822eccf89c221c9d166e4aa448;
+&a7b8b0d7c222c367719c98bd1d821205d;
+&ae022ec371a322133037c82e7406af2a8;
+&a7d8fd1580af08b2aab0ba68377b497b6;
+&ade0525fd2f21f164646bb3a7520846ab;
+&a735402e91aee266d55aa3e71775368b7;
+&a72791fc722fbb6b3856393442381e41e;
+&a1a0f7a3fda970f2a5e56947db943073c;
+&af8c0f00971c2cb6f6324594eca2c303c;
+&a46ec0aa61f3c7c266445bb08de4932c2;
+&ac1e83844977e1cec44f67463bbcdcd36;
+&a1bb6ba29e4dfaab5397af578291b2d73;
+&a359f92fa770e48a4d677e53b199e5da8;
+&ab7ebee8bf753b3b2ed2b35ccc1381236;
+&aada808671cb2eb049c0e6069e8dd79ec;
+&a086cba906bfc128a97ddddb37d392231;
+&a259f81ddf0f9a7f201bb0dbcba8cf0fa;
+&a0672c7a433077a649132a645c1a98c4f;
+&a7e442625a2161c9032e697d593e77dc3;
+&a5cfc18e06e13d344d594309cbd7dbc2e;
+&a131cd03a429afb0db1418ca1b8d877d5;
+&a69953b843056fefd57753bf1c5d0009c;
+&a99911bfaeea26663955b61826b77172d;
+&abf91dcecb01d486085317042b113cf3b;
+&acfe8ba0b79ff7af5b579d6003019c587;
+&a5807924a0dfb120339026c86448a0b47;
+&a149de94fa19eaeb3fcce28d31a2b9945;
+&a33f9651275c8488dbcabd7beb21614f5;
+&af4e1bf401953008c29f5b0189ec858ae;
+&a75996f76ad7cad721c848adee07ad212;
+&aa6cd06628cdbb6d0da03e48d7606bf7e;
+&a2a14f28a9c16ff9bbc2346a6a81cbeff;
+&adaa94dbdf9ae44cea6b56c205ca14f8f;
+&ad84a9df10b93664deff07fb9a3c826e3;
+&a43dba52df33114f0d08c18001eab8c94;
+&a9da7ce1e872ba8a72c6032e1a74eb3ca;
+&ab8c5998929dd3ae9997dad3c6c104a15;
+&a272ad606a6e38180628da675ee48f845;
+</chapter>
+</part>
+</book>
